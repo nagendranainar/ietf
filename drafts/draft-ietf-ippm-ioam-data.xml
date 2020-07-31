@@ -21,6 +21,7 @@
 <!ENTITY RFC5905 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.5905.xml">
 <!ENTITY RFC7384 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7384.xml">
 <!ENTITY RFC8300 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.8300.xml">
+<!ENTITY I-D.brockners-opsawg-ioam-deployment SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml-ids/reference.I-D.brockners-opsawg-ioam-deployment.xml">
 <!ENTITY I-D.ietf-sfc-proof-of-transit SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml-ids/reference.I-D.ietf-sfc-proof-of-transit.xml">
 <!ENTITY I-D.ioamteam-ippm-ioam-direct-export SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml-ids/reference.I-D.ioamteam-ippm-ioam-direct-export.xml">
 <!ENTITY I-D.ietf-spring-segment-routing SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml-ids/reference.I-D.ietf-spring-segment-routing.xml">
@@ -82,7 +83,7 @@
 
     <!-- Another author who claims to be an editor -->
 
-    <author fullname="Frank Brockners" initials="F." surname="Brockners">
+    <author fullname="Frank Brockners" initials="F." surname="Brockners" role="editor">
       <organization abbrev="Cisco">Cisco Systems, Inc.</organization>
 
       <address>
@@ -106,7 +107,7 @@
       </address>
     </author>
 
-    <author fullname="Shwetha Bhandari" initials="S." surname="Bhandari">
+    <author fullname="Shwetha Bhandari" initials="S." surname="Bhandari" role="editor">
       <organization abbrev="Cisco">Cisco Systems, Inc.</organization>
 
       <address>
@@ -123,78 +124,16 @@
       </address>
     </author>
 
-    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
-      <organization abbrev="Cisco">Cisco Systems, Inc.</organization>
+    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi" role="editor">
+      <organization abbrev="">Huawei</organization>
 
       <address>
         <postal>
-          <street>7200-11 Kit Creek Road</street>
+          <street>8-2 Matam</street>
 
-          <city>Research Triangle Park</city>
+          <city>Haifa</city>
 
-          <region>NC</region>
-
-          <code>27709</code>
-
-          <country>United States</country>
-        </postal>
-
-        <email>cpignata@cisco.com</email>
-      </address>
-    </author>
-
-    <author fullname="Hannes Gredler" initials="H." surname="Gredler">
-      <organization>RtBrick Inc.</organization>
-
-      <address>
-        <email>hannes@rtbrick.com</email>
-      </address>
-    </author>
-
-    <author fullname="John Leddy" initials="J." surname="Leddy">
-      <address>
-        <postal>
-          <street/>
-
-          <city/>
-
-          <code/>
-
-          <country>United States</country>
-        </postal>
-
-        <email>john@leddy.net</email>
-      </address>
-    </author>
-
-    <author fullname="Stephen Youell" initials="S." surname="Youell">
-      <organization abbrev="JPMC">JP Morgan Chase</organization>
-
-      <address>
-        <postal>
-          <street>25 Bank Street</street>
-
-          <city>London</city>
-
-          <code>E14 5JP</code>
-
-          <country>United Kingdom</country>
-        </postal>
-
-        <email>stephen.youell@jpmorgan.com</email>
-      </address>
-    </author>
-
-    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
-      <organization abbrev="">Huawei Network.IO Innovation Lab</organization>
-
-      <address>
-        <postal>
-          <street/>
-
-          <city/>
-
-          <code/>
+          <code>3190501</code>
 
           <country>Israel</country>
         </postal>
@@ -203,99 +142,7 @@
       </address>
     </author>
 
-    <author fullname="David Mozes" initials="D." surname="Mozes">
-      <organization/>
-
-      <address>
-        <postal>
-          <street/>
-
-          <city/>
-
-          <code/>
-
-          <country/>
-        </postal>
-
-        <email>mosesster@gmail.com</email>
-      </address>
-    </author>
-
-    <author fullname="Petr Lapukhov" initials="P." surname="Lapukhov">
-      <organization abbrev="">Facebook</organization>
-
-      <address>
-        <postal>
-          <street>1 Hacker Way</street>
-
-          <city>Menlo Park, CA</city>
-
-          <code>94025</code>
-
-          <country>US</country>
-        </postal>
-
-        <email>petr@fb.com</email>
-      </address>
-    </author>
-
-    <author fullname="Remy Chang" initials="R." surname="Chang">
-      <organization abbrev="">Barefoot Networks</organization>
-
-      <address>
-        <postal>
-          <street>4750 Patrick Henry Drive</street>
-
-          <city>Santa Clara, CA</city>
-
-          <code>95054</code>
-
-          <country>US</country>
-        </postal>
-
-        <email>remy@barefootnetworks.com</email>
-      </address>
-    </author>
-
-    <author fullname="Daniel Bernier" initials="D." surname="Bernier">
-      <organization abbrev="">Bell Canada</organization>
-
-      <address>
-        <postal>
-          <street/>
-
-          <city/>
-
-          <code/>
-
-          <country>Canada</country>
-        </postal>
-
-        <email>daniel.bernier@bell.ca</email>
-      </address>
-    </author>
-
-    <author fullname="Jennifer Lemon" initials="J." surname="Lemon">
-      <organization abbrev="">Broadcom</organization>
-
-      <address>
-        <postal>
-          <street>270 Innovation Drive</street>
-
-          <city>San Jose</city>
-
-          <region>CA</region>
-
-          <code>95134</code>
-
-          <country>US</country>
-        </postal>
-
-        <email>jennifer.lemon@broadcom.com</email>
-      </address>
-    </author>
-
-    <date day="19" month="June" year="2020"/>
+    <date day="13" month="July" year="2020"/>
 
     <!-- If the month and year are both specified and are the current ones, xml2rfc will fill 
          in the current day for you. If only the current year is specified, xml2rfc will fill 
@@ -358,12 +205,35 @@
       differently from regular data traffic by the network devices.</t>
 
       <t>IOAM use cases and mechanisms have expanded as this document matured,
-      resulting in additional flags and options that may trigger creation of
+      resulting in additional flags and options that could trigger creation of
       additional packets dedicated to OAM. The term IOAM continues to be used
       for such mechanisms, in addition to the "in-situ" mechanisms that
       motivated this terminology.</t>
     </section>
 
+	<section title="Contributors">
+	  <t>This document was the collective effort of several authors. The text
+	  and content were contributed by the editors and the co-authors listed 
+	  below. The contact information of the co-authors appears at the end of
+	  this document.</t>
+
+        <t><list style="symbols">
+            <t>Carlos Pignataro</t>
+			<t>Mickey Spiegel</t>
+			<t>Barak Gafni</t>
+			<t>Jennifer Lemon</t>
+			<t>Hannes Gredler</t>
+			<t>John Leddy</t>
+			<t>Stephen Youell</t>
+			<t>David Mozes</t>
+			<t>Petr Lapukhov</t>
+			<t>Remy Chang</t>
+			<t>Daniel Bernier</t>
+          </list></t>
+	  
+	
+	</section>
+	
     <section anchor="Conventions" title="Conventions">
       <t>The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
       "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
@@ -421,11 +291,11 @@
       connections between devices or an overlay network using virtual
       connections / tunnels for connectivity between said devices. A network
       domain is defined by its perimeter or edge. Designers of protocol
-      encapsulations for IOAM must specify mechanisms to ensure that IOAM data
+      encapsulations for IOAM specify mechanisms to ensure that IOAM data
       stays within an IOAM domain. In addition, the operator of such a domain
       is expected to put provisions in place to ensure that IOAM data does not
       leak beyond the edge of an IOAM domain using,for example, packet
-      filtering methods. The operator should consider the potential
+      filtering methods. The operator has to consider the potential
       operational impact of IOAM to mechanisms such as ECMP processing (e.g.
       load-balancing schemes based on packet length could be impacted by the
       increased packet size due to IOAM), path MTU (i.e. ensure that the MTU
@@ -538,10 +408,14 @@
 
         <t>An "IOAM transit node" updates one or more of the IOAM-Data-Fields.
         If both the Pre-allocated and the Incremental Trace Option-Types are
-        present in the packet, each IOAM transit node will update at most one
-        of these Option-Types. A transit node MUST NOT add new
-        IOAM-Option-Types to a packet, and MUST NOT change the
-        IOAM-Data-Fields of an IOAM Edge-to-Edge Option-Type.</t>
+        present in the packet, each IOAM transit node based on configuration and
+	available implementation of IOAM populates IOAM trace data in
+	either Pre-allocated or Incremental Trace Option-Type but not both.
+        A transit node MUST ignore IOAM-Option-Types that it does not
+        understand. A transit node MUST NOT add new IOAM-Option-Types to a
+        packet, MUST NOT remove IOAM-Option-Types from a packet, and
+        MUST NOT change the IOAM-Data-Fields of an IOAM Edge-to-Edge
+        Option-Type.</t>
 
         <t>An "IOAM decapsulating node" removes IOAM-Option-Type(s) from
         packets.</t>
@@ -551,7 +425,10 @@
         IOAM-Namespace. This means that an IOAM node which is e.g. an
         IOAM-decapsulating node for IOAM-Namespace "A" but not for
         IOAM-Namespace "B" will only remove the IOAM-Option-Types for
-        IOAM-Namespace "A" from the packet. An IOAM decapsulating node
+        IOAM-Namespace "A" from the packet. Note that this applies even
+        for IOAM-Option-Types that the node does not understand, for
+        example an IOAM-Option-Type other than the four described above,
+        that is added in a future revision. An IOAM decapsulating node
         situated at the edge of an IOAM domain MUST remove all
         IOAM-Option-Types and associated encapsulation headers for all
         IOAM-Namespaces from the packet.</t>
@@ -608,7 +485,7 @@
             overlapping IOAM-Domains or in case of a layered IOAM
             deployment.</t>
 
-            <t>whether IOAM-Option-Type(s) should be removed from the packet,
+            <t>whether IOAM-Option-Type(s) has to be removed from the packet,
             e.g. at a domain edge or domain boundary.</t>
           </list></t>
 
@@ -624,7 +501,7 @@
             interpreted properly by management stations or network
             controllers. While, for example, the node identifier field
             (node_id, see below) does not need to be unique in a deployment
-            (e.g. an operator may wish to use different node identifiers for
+            (e.g. if an operator wishes to use different node identifiers for
             different IOAM layers, even within the same device; or node
             identifiers might not be unique for other organizational reasons,
             such as after a merger of two formerly separated organizations),
@@ -688,7 +565,10 @@
         which do not support IOAM functionality as defined in this document
         will forward the packet without any changes to the IOAM-Data-Fields.
         The maximum number of hops and the minimum path MTU of the IOAM domain
-        is assumed to be known.</t>
+        is assumed to be known. An overflow indicator (O-bit) is defined
+	as one of the ways to deal with situations where the PMTU
+	was underestimated, i.e. where the number of hops which
+	are IOAM capable exceeds the available space in the packet.</t>
 
         <t>To optimize hardware and software implementations, IOAM tracing is
         defined as two separate options. Any deployment MAY choose to
@@ -728,7 +608,7 @@
             encapsulating node allocates space for the Incremental Trace
             Option-Type. Based on operational state and configuration, the
             IOAM encapsulating node sets the fields in the Option-Type that
-            control what IOAM-Data-Fields should be collected and how large
+            control what IOAM-Data-Fields have to be collected and how large
             the node data list can grow. IOAM transit nodes push their node
             data to the node data list, decrease the remaining length
             available to subsequent nodes and adjust the lengths and possibly
@@ -773,7 +653,7 @@
 
             <t>Generic data: Format-free information where syntax and semantic
             of the information is defined by the operator in a specific
-            deployment. For a specific IOAM-Namespace, all IOAM nodes should
+            deployment. For a specific IOAM-Namespace, all IOAM nodes have to
             interpret the generic data the same way. Examples for generic IOAM
             data include geo-location information (location of the node at the
             time the packet was processed), buffer queue fill level or cache
@@ -856,10 +736,10 @@ The trace option data MUST be 4-octet aligned:
               example, if 3 IOAM-Trace-Type bits are set and none of them are
               wide, then NodeLen would be 3. If 3 IOAM-Trace-Type bits are set
               and 2 of them are wide, then NodeLen would be 5. <vspace
-              blankLines="1"/>An IOAM encapsulating node must set NodeLen.
+              blankLines="1"/>An IOAM encapsulating node MUST set NodeLen.
               <vspace blankLines="1"/>A node receiving an IOAM Pre-allocated
-              or Incremental Trace-Option may rely on the NodeLen value, or it
-              may ignore the NodeLen value and calculate the node length from
+              or Incremental Trace-Option relies on the NodeLen value, or it
+              can ignore the NodeLen value and calculate the node length from
               the IOAM-Trace-Type bits (see below).</t>
 
               <t anchor="TraceFlags" hangText="Flags">4-bit field. Flags are
@@ -867,9 +747,9 @@ The trace option data MUST be 4-octet aligned:
               target="Flags-Registry-Sec"/>. This document allocates a single
               flag as follows: <list style="hanging">
                   <t hangText="Bit 0">"Overflow" (O-bit) (most significant
-                  bit). If there are not enought octets left to record node
-                  data, the network element MUST NOT add a field and MUST set
-                  the overflow "O-bit" to "0" in the IOAM-Trace-Option header.
+                  bit). If there are not enough octets left to record node
+                  data, the network element MUST NOT add any fields and MUST set
+                  the overflow "O-bit" to "1" in the IOAM-Trace-Option header.
                   This is useful for transit nodes to ignore further
                   processing of the option.</t>
                 </list></t>
@@ -886,10 +766,13 @@ The trace option data MUST be 4-octet aligned:
               determine whether or not data can be added by this node. When
               node data is added, the node MUST decrease RemainingLen by the
               amount of data added. In the pre-allocated trace option,
-              RemainingLength is used to derive the offset in data space to
+              RemainingLen is used to derive the offset in data space to
               record the node data element. Specifically, the recording of the
               node data element would start from RemainingLen - NodeLen -
-              sizeof(opaque snapshot) in 4 octet units.</t>
+              sizeof(opaque snapshot) in 4 octet units. If RemainingLen
+              in a pre-allocated trace option exceeds the length of the
+              option, as specified in the preceding header, then the node
+              MUST NOT add any fields.</t>
 
               <t anchor="IOAMTraceType" hangText="IOAM-Trace-Type:">A 24-bit
               identifier which specifies which data types are used in this
@@ -946,7 +829,7 @@ The trace option data MUST be 4-octet aligned:
                   <t hangText="Bit 12-21">Undefined. An IOAM encapsulating
                   node MUST set the value of each of these bits to 0. If an
                   IOAM transit node receives a packet with one or more of
-                  these bits set to 1, it must either: <list style="numbers">
+                  these bits set to 1, it MUST either: <list style="numbers">
                       <t>Add corresponding node data filled with the reserved
                       value 0xFFFFFFFF, after the node data fields for the
                       IOAM-Trace-Type bits defined above, such that the total
@@ -960,7 +843,7 @@ The trace option data MUST be 4-octet aligned:
                   <t hangText="Bit 22">When set, indicates presence of
                   variable length Opaque State Snapshot field.</t>
 
-                  <t hangText="Bit 23">Reserved: Must be set to zero upon
+                  <t hangText="Bit 23">Reserved: MUST be set to zero upon
                   transmission and ignored upon receipt.</t>
                 </list></t>
 
@@ -970,7 +853,7 @@ The trace option data MUST be 4-octet aligned:
               IOAM-Trace-Type can be restricted by configuration knobs.</t>
 
               <t hangText="Reserved:">8-bits. An IOAM encapsulating node MUST
-              set the value to zero upon transmission. IOAM transit nodes must
+              set the value to zero upon transmission. IOAM transit nodes MUST
               ignore the received value.</t>
 
               <t hangText="Node data List [n]:">Variable-length field. This is
@@ -1077,7 +960,7 @@ The trace option data MUST be 4-octet aligned:
             format that is specified in <xref target="TimestampSec"/>. If a
             node is not capable of populating this field, it assigns the value
             0xFFFFFFFF. Note that this is a legitimate value that is valid for
-            1 second in approximately 136 years; the analyzer should correlate
+            1 second in approximately 136 years; the analyzer has to correlate
             several packets or compare the timestamp value to its own
             time-of-day in order to detect the error indication.</t>
           </section>
@@ -1096,7 +979,7 @@ The trace option data MUST be 4-octet aligned:
             this field, it assigns the value 0xFFFFFFFF. Note that this is a
             legitimate value in the NTP format, valid for approximately 233
             picoseconds in every second. If the NTP format is used the
-            analyzer should correlate several packets in order to detect the
+            analyzer has to correlate several packets in order to detect the
             error indication.</t>
           </section>
 
@@ -1108,7 +991,7 @@ The trace option data MUST be 4-octet aligned:
             nanoseconds then the top bit 'O' is set to indicate overflow and
             value set to 0x80000000. When this field is part of the data field
             but a node populating the field is not able to fill it, the field
-            position in the field must be filled with value 0xFFFFFFFF to mean
+            position in the field MUST be filled with value 0xFFFFFFFF to mean
             not populated.<figure>
                 <artwork><![CDATA[ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -1133,8 +1016,8 @@ The trace option data MUST be 4-octet aligned:
             <t>The "queue depth" field is a 4-octet unsigned integer field.
             This field indicates the current length of the egress interface
             queue of the interface from where the packet is forwarded out. The
-            queue depth is expressed as the current number of memory buffers
-            used by the queue (a packet may consume one or more memory
+            queue depth is expressed as the current amount of memory buffers
+            used by the queue (a packet could consume one or more memory
             buffers, depending on its size). <figure>
                 <artwork><![CDATA[ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -1142,7 +1025,37 @@ The trace option data MUST be 4-octet aligned:
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+]]></artwork>
               </figure></t>
           </section>
+          <section title="Checksum Complement">
+            <t>The "Checksum Complement" field is a 4-octet node data which
+            contains a 4-octet Checksum Complement field. The Checksum
+            Complement is useful when IOAM is transported over encapsulations
+            that make use of a UDP transport, such as VXLAN-GPE or Geneve.
+            Without the Checksum Complement, nodes adding IOAM node data 
+            update the UDP Checksum field following the recommendation of the
+	    encapsulation protocols. When the Checksum Complement is
+            present, an IOAM encapsulating node or IOAM transit node adding
+            node data MUST carry out one of the following two alternatives in
+            order to maintain the correctness of the UDP Checksum value: <list
+                style="numbers">
+                <t>Recompute the UDP Checksum field.</t>
 
+                <t>Use the Checksum Complement to make a checksum-neutral
+                update in the UDP payload; the Checksum Complement is assigned
+                a value that complements the rest of the node data fields that
+                were added by the current node, causing the existing UDP
+                Checksum field to remain correct.</t>
+              </list> IOAM decapsulating nodes MUST recompute the UDP Checksum
+            field, since they do not know whether previous hops modified the
+            UDP Checksum field or the Checksum Complement field. <vspace
+            blankLines="1"/> Checksum Complement fields are used in a similar
+            manner in <xref target="RFC7820"/> and <xref target="RFC7821"/>.
+            <figure>
+                <artwork><![CDATA[ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                   Checksum Complement                         |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+]]></artwork>
+              </figure></t>
+          </section>
           <section title="Hop_Lim and node_id wide">
             <t>The "Hop_Lim and node_id wide" field is an 8-octet field
             defined as follows: <figure>
@@ -1213,8 +1126,8 @@ The trace option data MUST be 4-octet aligned:
             <t>The "buffer occupancy" field is a 4-octet unsigned integer
             field. This field indicates the current status of the occupancy of
             the common buffer pool used by a set of queues. The units of this
-            field may be implementation specific. Hence, the units may need to
-            be interpreted within the context of an IOAM-Namespace and/or
+            field are implementation specific. Hence, the units are
+            interpreted within the context of an IOAM-Namespace and/or
             node-id if used. The authors acknowledge that in some operational
             cases there is a need for the units to be consistent across a
             packet path through the network, hence RECOMMEND the
@@ -1222,37 +1135,6 @@ The trace option data MUST be 4-octet aligned:
                 <artwork><![CDATA[ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |                       buffer occupancy                        |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+]]></artwork>
-              </figure></t>
-          </section>
-
-          <section title="Checksum Complement">
-            <t>The "Checksum Complement" field is a 4-octet node data which
-            contains a 4-octet Checksum Complement field. The Checksum
-            Complement is useful when IOAM is transported over encapsulations
-            that make use of a UDP transport, such as VXLAN-GPE or Geneve.
-            Without the Checksum Complement, nodes adding IOAM node data must
-            update the UDP Checksum field. When the Checksum Complement is
-            present, an IOAM encapsulating node or IOAM transit node adding
-            node data MUST carry out one of the following two alternatives in
-            order to maintain the correctness of the UDP Checksum value: <list
-                style="numbers">
-                <t>Recompute the UDP Checksum field.</t>
-
-                <t>Use the Checksum Complement to make a checksum-neutral
-                update in the UDP payload; the Checksum Complement is assigned
-                a value that complements the rest of the node data fields that
-                were added by the current node, causing the existing UDP
-                Checksum field to remain correct.</t>
-              </list> IOAM decapsulating nodes MUST recompute the UDP Checksum
-            field, since they do not know whether previous hops modified the
-            UDP Checksum field or the Checksum Complement field. <vspace
-            blankLines="1"/> Checksum Complement fields are used in a similar
-            manner in <xref target="RFC7820"/> and <xref target="RFC7821"/>.
-            <figure>
-                <artwork><![CDATA[ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                   Checksum Complement                         |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+]]></artwork>
               </figure></t>
           </section>
@@ -1267,7 +1149,7 @@ The trace option data MUST be 4-octet aligned:
             specification of this mechanism is beyond the scope of this
             document. A 24-bit "Schema Id" field, interpreted within the
             context of an IOAM-Namespace, indicates which particular schema is
-            used, and should be configured on the network element by the
+            used, and has to be configured on the network element by the
             operator.<figure>
                 <artwork><![CDATA[    0                   1                   2                   3
     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
@@ -1294,7 +1176,7 @@ The trace option data MUST be 4-octet aligned:
                 Schema ID.</t>
               </list>When this field is part of the data field but a node
             populating the field has no opaque state data to report, the
-            Length must be set to 0 and the Schema ID must be set to 0xFFFFFF
+            Length MUST be set to 0 and the Schema ID MUST be set to 0xFFFFFF
             to mean no schema.</t>
           </section>
         </section>
@@ -1464,7 +1346,10 @@ IOAM proof of transit Option-Type IOAM-Data-Fields MUST be
             document defines POT Type 0:<list style="hanging">
                 <t hangText="0:">POT data is a 16 Octet field as described
                 below.</t>
-              </list></t>
+              </list>
+            If a node receives an IOAM POT Type value that it does not
+            understand, the node MUST NOT change the contents of the
+            IOAM-Data-Fields.</t>
 
             <t hangText="IOAM POT flags:">8-bit. Following flags are
             defined:<list style="hanging">
@@ -1473,7 +1358,7 @@ IOAM proof of transit Option-Type IOAM-Data-Fields MUST be
                 drive computation, indicates which POT-profile is used. The
                 two profiles are numbered 0, 1.</t>
 
-                <t hangText="Bit 1-7">Reserved: Must be set to zero upon
+                <t hangText="Bit 1-7">Reserved: MUST be set to zero upon
                 transmission and ignored upon receipt.</t>
               </list></t>
 
@@ -1536,7 +1421,7 @@ IOAM proof of transit option of IOAM POT Type 0:
             </list>Note: Larger or smaller sizes of "Random" and "Cumulative"
           data are feasible and could be required for certain deployments
           (e.g. in case of space constraints in the encapsulation protocols
-          used). Future documents may address different sizes of data for
+          used). Future documents could introduce different sizes of data for
           "proof of transit".</t>
         </section>
       </section>
@@ -1609,7 +1494,7 @@ be 4-octet aligned:
                 received by the node, 2) the time at which the packet was
                 transmitted by the node, 3) when a tunnel encapsulation is
                 used, the point at which the packet is encapsulated into the
-                tunnel. Each implementation should document when the E2E
+                tunnel. Each implementation has to document when the E2E
                 timestamp that is going to be put in the packet is retrieved.
                 This 4-octet field has three possible formats; based on either
                 PTP <xref target="IEEE1588v2"/>, NTP <xref target="RFC5905"/>,
@@ -1620,7 +1505,7 @@ be 4-octet aligned:
                 <xref target="TimestampSec"/>. If a node is not capable of
                 populating this field, it assigns the value 0xFFFFFFFF. Note
                 that this is a legitimate value that is valid for 1 second in
-                approximately 136 years; the analyzer should correlate several
+                approximately 136 years; the analyzer has to correlate several
                 packets or compare the timestamp value to its own time-of-day
                 in order to detect the error indication.</t>
 
@@ -1637,11 +1522,11 @@ be 4-octet aligned:
                 populating this field, it assigns the value 0xFFFFFFFF. Note
                 that this is a legitimate value in the NTP format, valid for
                 approximately 233 picoseconds in every second. If the NTP
-                format is used the analyzer should correlate several packets
+                format is used the analyzer has to correlate several packets
                 in order to detect the error indication.</t>
 
                 <t hangText="Bit 4-15">Undefined. An IOAM encapsulating node
-                Must set the value of these bits to zero upon transmission and
+                MUST set the value of these bits to zero upon transmission and
                 ignore upon receipt.</t>
               </list></t>
 
@@ -1713,10 +1598,10 @@ be 4-octet aligned:
 
         <t>Synchronization Aspects: <list hangIndent="10" style="empty">
             <t>It is assumed that nodes that run this protocol are
-            synchronized among themselves. Nodes may be synchronized to a
+            synchronized among themselves. Nodes MAY be synchronized to a
             global reference time. Note that if PTP <xref
             target="IEEE1588v2"/> is used for synchronization, the timestamp
-            may be derived from the PTP-synchronized clock, allowing the
+            MAY be derived from the PTP-synchronized clock, allowing the
             timestamp to be measured with respect to the clock of an PTP
             Grandmaster clock.</t>
 
@@ -1779,14 +1664,14 @@ be 4-octet aligned:
         <t>Synchronization Aspects: <list hangIndent="10" style="empty">
             <t>Nodes that use this timestamp format will typically be
             synchronized to UTC using NTP <xref target="RFC5905"/>. Thus, the
-            timestamp may be derived from the NTP-synchronized clock, allowing
+            timestamp MAY be derived from the NTP-synchronized clock, allowing
             the timestamp to be measured with respect to the clock of an NTP
             server.</t>
 
             <t>The NTP timestamp format is affected by leap seconds; it
             represents the number of seconds since the epoch minus the number
             of leap seconds that have occurred since the epoch. The value of a
-            timestamp during or slightly after a leap second may be
+            timestamp during or slightly after a leap second could be
             temporarily inaccurate.</t>
           </list></t>
       </section>
@@ -1845,16 +1730,16 @@ be 4-octet aligned:
         <t>Synchronization Aspects: <list hangIndent="10" style="empty">
             <t>It is assumed that nodes that use this timestamp format run the
             Linux operating system, and hence use the POSIX time. In some
-            cases nodes may be synchronized to UTC using a synchronization
+            cases nodes MAY be synchronized to UTC using a synchronization
             mechanism that is outside the scope of this document, such as NTP
-            <xref target="RFC5905"/>. Thus, the timestamp may be derived from
+            <xref target="RFC5905"/>. Thus, the timestamp MAY be derived from
             the NTP-synchronized clock, allowing the timestamp to be measured
             with respect to the clock of an NTP server.</t>
 
             <t>The POSIX-based timestamp format is affected by leap seconds;
             it represents the number of seconds since the epoch minus the
             number of leap seconds that have occurred since the epoch. The
-            value of a timestamp during or slightly after a leap second may be
+            value of a timestamp during or slightly after a leap second could be
             temporarily inaccurate.</t>
           </list></t>
       </section>
@@ -1875,12 +1760,10 @@ be 4-octet aligned:
     <section anchor="IANA" title="IANA Considerations">
       <t>This document requests the following IANA Actions.</t>
 
-      <section anchor="IANA-Creation"
-               title="Creation of a new In-Situ OAM  Protocol Parameters Registry (IOAM) Protocol Parameters IANA registry">
-        <t>IANA is requested to create a new protocol registry for "In-Situ
-        OAM (IOAM) Protocol Parameters". This is the common registry that will
-        include registrations for all IOAM-Namespaces. Each Registry, whose
-        names are listed below:</t>
+      <t>IANA is requested to define a registry group named
+	  "In-Situ OAM (IOAM) Protocol Parameters".</t>
+
+	  <t>This group will include the following registries:</t>
 
         <t><list style="empty">
             <t>IOAM Option-Type</t>
@@ -1896,13 +1779,13 @@ be 4-octet aligned:
             <t>IOAM E2E-Type</t>
 
             <t>IOAM Namespace-ID</t>
-          </list>will contain the current set of possibilities defined in this
-        document. New registries in this name space are created via RFC
+          </list></t>
+
+        <t>New registries in this group can be created via RFC
         Required process as per <xref target="RFC8126"/>.</t>
 
         <t>The subsequent sub-sections detail the registries herein
         contained.</t>
-      </section>
 
       <section anchor="IOAM-type-registry" title="IOAM Option-Type Registry">
         <t>This registry defines 128 code points for the IOAM Option-Type
@@ -2027,7 +1910,16 @@ be 4-octet aligned:
         private use (managed by operators), as specified in <xref
         target="ioam_namespaces"/> of the current document. Registry entries
         for the values 0x8000 to 0xFFFF are to be assigned via the "Expert
-        Review" policy defined in <xref target="RFC8126"/>.</t>
+        Review" policy defined in <xref target="RFC8126"/>. Upon a new 
+		allocation request, the responsible AD will appoint a designated 
+		expert, who will review the allocation request. The expert will post 
+		the request on the IPPM mailing list, and possibly on other relevant 
+		mailing lists, to allow for community feedback. Based on the review, 
+		the expert will either approve or deny the request. The intention is 
+		that any allocation will be accompanied by a published RFC.  But in 
+		order to allow for the allocation of values prior to the RFC being 
+		approved for publication, the designated expert can approve 
+		allocations once it seems clear that an RFC will be published.</t>
 
         <t><list style="hanging">
             <t hangText="0:">default namespace (known to all IOAM nodes)</t>
@@ -2037,6 +1929,16 @@ be 4-octet aligned:
             <t hangText="0x8000 - 0xFFFF:">unassigned</t>
           </list></t>
       </section>
+    </section>
+
+    <section title="Management and Deployment Considerations">
+	    <t>This document defines the structure and use of IOAM data fields. 
+	This document does not define the encapsulation of IOAM data fields into different protocols.
+	Management and deployment aspects for IOAM have to be considered within the context of the
+	protocol IOAM data fields are encapsulated into and as such, are out of scope for this document.
+	For a discussion of IOAM deployment, please also refer to
+	<xref target="I-D.brockners-opsawg-ioam-deployment"/>, which outlines a framework for IOAM deployment
+       	and provides best current practices.</t>
     </section>
 
     <section anchor="Security" title="Security Considerations">
@@ -2057,7 +1959,7 @@ be 4-octet aligned:
       contain user data, they can be used for network reconnaissance, allowing
       attackers to collect information about network paths, performance, queue
       states, buffer occupancy and other information. Moreover, if IOAM data
-      leaks from the IOAM domain it may enable reconnaissance beyond the scope
+      leaks from the IOAM domain it could enable reconnaissance beyond the scope
       of the IOAM domain. Note that in case IOAM is used in "Direct Exporting"
       mode <xref target="I-D.ioamteam-ippm-ioam-direct-export"/>, the IOAM
       related trace information would not be available in the customer data
@@ -2075,19 +1977,19 @@ be 4-octet aligned:
       data packets, causing these packets to be increased beyond the MTU size,
       resulting in fragmentation or in packet drops.</t>
 
-      <t>Since IOAM options may include timestamps, if network devices use
+      <t>Since IOAM options can include timestamps, if network devices use
       synchronization protocols then any attack on the time protocol <xref
       target="RFC7384"/> can compromise the integrity of the timestamp-related
       data fields.</t>
 
-      <t>At the management plane, attacks may be implemented by misconfiguring
+      <t>At the management plane, attacks can be set up by misconfiguring
       or by maliciously configuring IOAM-enabled nodes in a way that enables
-      other attacks. Thus, IOAM configuration should be secured in a way that
+      other attacks. Thus, IOAM configuration has to be secured in a way that
       authenticates authorized users and verifies the integrity of
       configuration procedures.</t>
 
       <t>The current document does not define a specific IOAM encapsulation.
-      It should be noted that some IOAM encapsulation types may introduce
+      It has to be noted that some IOAM encapsulation types can introduce
       specific security considerations. A specification that defines an IOAM
       encapsulation is expected to address the respective
       encapsulation-specific security considerations.</t>
@@ -2104,11 +2006,11 @@ be 4-octet aligned:
       and used within the domain.</t>
 
       <t>The security considerations of a system that deploys IOAM, much like
-      any system, should be reviewed on a per-deployment-scenario basis, based
-      on a systems-specific threat analysis, which may lead to specific
+      any system, has to be reviewed on a per-deployment-scenario basis, based
+      on a systems-specific threat analysis, which can lead to specific
       security solutions that are beyond the scope of the current document.
       For example, in an IOAM deployment that is not confined to a single LAN,
-      but spans multiple inter-connected sites, the inter-site links may be
+      but spans multiple inter-connected sites, the inter-site links can be
       secured (e.g., by IPsec) in order to avoid external threats.</t>
     </section>
 
@@ -2234,6 +2136,8 @@ be 4-octet aligned:
 
       &I-D.spiegel-ippm-ioam-rawexport;
 
+      &I-D.brockners-opsawg-ioam-deployment;
+
       <reference anchor="SSS"
                  target="https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing">
         <front>
@@ -2245,5 +2149,100 @@ be 4-octet aligned:
         </front>
       </reference>
     </references>
+	
+    <section numbered="no" title="Contributors' Addresses">
+          <t><figure>
+              <artwork><![CDATA[ 
+   Carlos Pignataro
+   Cisco Systems, Inc.
+   7200-11 Kit Creek Road
+   Research Triangle Park, NC  27709
+   United States
+
+   Email: cpignata@cisco.com
+
+   
+   Mickey Spiegel
+   Barefoot Networks, an Intel company
+   4750 Patrick Henry Drive
+   Santa Clara, CA  95054
+   US
+
+   Email: mickey.spiegel@intel.com   
+
+   
+   Barak Gafni
+   Mellanox Technologies, Inc.
+   350 Oakmead Parkway, Suite 100
+   Sunnyvale, CA  94085
+   U.S.A.
+
+   Email: gbarak@mellanox.com
+
+   
+   Jennifer Lemon
+   Broadcom
+   270 Innovation Drive
+   San Jose, CA  95134
+   US
+
+   Email: jennifer.lemon@broadcom.com
+
+   
+   Hannes Gredler
+   RtBrick Inc.
+
+   Email: hannes@rtbrick.com
+
+
+   John Leddy
+   United States
+
+   Email: john@leddy.net
+
+
+   Stephen Youell
+   JP Morgan Chase
+   25 Bank Street
+   London  E14 5JP
+   United Kingdom
+
+   Email: stephen.youell@jpmorgan.com
+
+
+   David Mozes
+
+   Email: mosesster@gmail.com
+
+
+   Petr Lapukhov
+   Facebook
+   1 Hacker Way
+   Menlo Park, CA  94025
+   US
+
+   Email: petr@fb.com
+
+
+   Remy Chang
+   Barefoot Networks
+   4750 Patrick Henry Drive
+   Santa Clara, CA  95054
+   US
+
+   Email: remy@barefootnetworks.com
+
+
+   Daniel Bernier
+   Bell Canada
+   Canada
+
+   Email: daniel.bernier@bell.ca
+
+]]></artwork>
+            </figure></t>	
+	
+    </section>
+	
   </back>
 </rfc>
